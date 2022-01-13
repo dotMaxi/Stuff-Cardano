@@ -1,4 +1,4 @@
-En esta guía se pretende dar cobertura a la actualización del nodo de Cardano a la versión 1.33.0. Antes de continuar, quier 
+En esta guía se pretende dar cobertura a la actualización del nodo de Cardano a la versión 1.33.0.
 
 **1. Actualización del sistema**  
   
