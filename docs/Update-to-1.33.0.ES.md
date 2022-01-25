@@ -1,4 +1,4 @@
-Esta guia pretende dar cobertura a la actualización del nodo de Cardano a la versión 1.33.0. Son muchos los que usaban la guia de [Coincashew](https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node/how-to-update-a-stakepool) pero la última vez que la actualizaron fue para la versión 1.30.1 el 1 de octubre del 2021.  
+Esta guía pretende dar cobertura a la actualización del nodo de Cardano a la versión 1.33.0. Son muchos los que usaban la guia de [Coincashew](https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node/how-to-update-a-stakepool) pero la última vez que la actualizaron fue para la versión 1.30.1 el 1 de octubre del 2021.  
   
 Aunque practicamente en cada versión siempre se realizan las mismas acciones considero que puede llegar a ser útil para algunos usuarios. De hecho, en esta actualización, a diferencia de las anteriores, vamos a usar una nueva versión de GHC.  
   
