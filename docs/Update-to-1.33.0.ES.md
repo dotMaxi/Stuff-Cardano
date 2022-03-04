@@ -40,5 +40,26 @@ cabal configure -O0 -w ghc-8.10.4
 echo -e "package cardano-crypto-praos\n flags: -external-libsodium-vrf" > cabal.project.local
 cabal build cardano-node cardano-cli
 ```  
-
-**Pendiente de completar guia.....**
+**5. Comprobando la versión de cardano-cli y cardano-node**  
+```bash
+$(find $HOME/git/cardano-node2/dist-newstyle/build -type f -name "cardano-cli") version
+$(find $HOME/git/cardano-node2/dist-newstyle/build -type f -name "cardano-node") version
+```  
+**6. Apagando el nodo y copiando la nueva versión**  
+```bash
+sudo systemctl stop cardano-node
+```  
+Ahora copiamos cardano-cli y cardano-node en /usr/local/bin/ con el siguiente comando:  
+```bash
+sudo cp $(find $HOME/git/cardano-node2/dist-newstyle/build -type f -name "cardano-cli") /usr/local/bin/cardano-cli
+sudo cp $(find $HOME/git/cardano-node2/dist-newstyle/build -type f -name "cardano-node") /usr/local/bin/cardano-node
+```  
+**7. Comprobando la versión del nodo de Cardano que se va a ejecutar**  
+```bash
+cardano-node version
+cardano-cli version
+```  
+Arrancamos el nodo de Cardano:
+```bash
+sudo systemctl start cardano-node
+```  
