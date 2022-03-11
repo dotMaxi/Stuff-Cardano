@@ -58,3 +58,14 @@ Arrancamos el nodo de Cardano:
 ```bash
 sudo systemctl start cardano-node
 ```  
+**8. Limpiando** 
+```bash
+cd $HOME/git/
+rm -rf cardano-node-old
+mv cardano-node cardano-node-old
+mv cardano-node2 cardano-node
+```
+**9. Revisando logs** 
+```bash
+journalctl --unit=cardano-node --follow 
+```
