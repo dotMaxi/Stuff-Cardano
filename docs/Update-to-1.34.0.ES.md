@@ -17,7 +17,7 @@ cd $HOME/git
 git clone https://github.com/input-output-hk/cardano-node.git cardano-node2
 cd cardano-node2/
 git fetch --all --recurse-submodules --tags
-git checkout tags/1.34.1
+git checkout tags/1.34.0
 ```  
 ```bash
 ghcup upgrade
