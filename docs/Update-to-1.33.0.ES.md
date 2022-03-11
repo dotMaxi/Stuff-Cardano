@@ -36,7 +36,7 @@ cabal --version
 **4. Construyendo el nodo**  
 ```bash
 cd $HOME/git/cardano-node2
-cabal configure -O0 -w ghc-8.10.4
+cabal configure -O0 -w ghc-8.10.7
 echo -e "package cardano-crypto-praos\n flags: -external-libsodium-vrf" > cabal.project.local
 cabal build cardano-node cardano-cli
 ```  
