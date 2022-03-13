@@ -8,3 +8,4 @@
 
 ## Tareas de mantenimiento:
 - [Renovación de las llaves KES](docs/Renovacion-llaves-KES.ES.md)
+- [Modificación del Pledge teniendo una segunda Wallet por Hardware](docs/Modificar-Pledge-con-HW.ES.md) *En construcción*   
